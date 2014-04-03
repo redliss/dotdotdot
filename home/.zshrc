@@ -51,7 +51,10 @@ ZSH_THEME="agnoster"
 plugins=(git)
 
 source $ZSH/oh-my-zsh.sh
+
 source /usr/local/share/chruby/chruby.sh
+source /usr/local/share/chruby/auto.sh
+chruby ruby-2.0.0-p353
 
 # User configuration
 

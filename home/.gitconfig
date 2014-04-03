@@ -26,3 +26,5 @@
 [user]
 	email = lissm@sdf.org
 	name = Liss M
+[credential]
+	helper = /usr/share/git/credential/gnome-keyring/git-credential-gnome-keyring
