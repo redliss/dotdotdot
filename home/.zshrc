@@ -51,6 +51,7 @@ ZSH_THEME="agnoster"
 plugins=(git)
 
 source $ZSH/oh-my-zsh.sh
+source /usr/local/share/chruby/chruby.sh
 
 # User configuration
 
@@ -71,4 +72,4 @@ export PATH=".git/safe/../../bin:/home/lissm/.bin:.git/safe/../../bin:.git/bin:/
 # export ARCHFLAGS="-arch x86_64"
 
 # ssh
-# export SSH_KEY_PATH="~/.ssh/dsa_id"
+export SSH_KEY_PATH="~/.ssh/id_rsa"
